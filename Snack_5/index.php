@@ -19,8 +19,9 @@
     $array_str = (explode(".", $str )) ;
 
     foreach ($array_str as $string){
+      if(!empty($string)){
   ?>
-  <p><?php echo $string ?></p>
-  <?php } ?>
+  <p><?php echo $string ?>.</p>
+  <?php }} ?>
 </body>
 </html>
