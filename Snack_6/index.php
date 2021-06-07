@@ -33,6 +33,9 @@
   ];
 
   foreach($db as $key => $users){
+    ?>
+    <p><?php echo $key ?></p>
+    <?php
     foreach($users as $user){
       if($key == 'teachers'){
   ?>
